@@ -1,20 +1,278 @@
-body {
+.screen {
+  background-color: #232222;
+  background-image: url(./img/vector-4.svg);
+  background-size: 100% 100%;
+  width: 100%;
+  min-width: 1200px;
+  min-height: 516px;
+  position: relative;
+}
+
+.screen .image {
+  position: absolute;
+  top: 96px;
+  left: 80px;
+  width: 437px;
+  height: 390px;
+}
+
+.screen .group {
+  top: -67px;
+  left: 885px;
+  width: 270px;
+  height: 270px;
+  position: absolute;
   display: flex;
-  justify-content: center;
+}
+
+.screen .ellipse {
+  margin-top: 67px;
+  width: 270px;
+  height: 203px;
+}
+
+.screen .vector {
+  position: absolute;
+  top: 0;
+  left: 904px;
+  width: 232px;
+  height: 184px;
+}
+
+.screen .img {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 89px;
+  height: 516px;
+}
+
+.screen .image-2 {
+  left: 1111px;
+  position: absolute;
+  top: 0;
+  width: 89px;
+  height: 516px;
+}
+
+.screen .div {
+  top: 218px;
+  left: 521px;
+  width: 556px;
+  height: 145px;
+  flex-direction: column;
+  gap: 7.1px;
+  position: absolute;
+  display: flex;
+}
+
+.screen .text-wrapper {
+  width: 333px;
+  height: 69px;
+  background: linear-gradient(
+    90deg,
+    rgba(242, 219, 248, 1) 0%,
+    rgba(233, 145, 250, 1) 28%,
+    rgba(186, 125, 255, 1) 45%,
+    rgba(178, 178, 253, 1) 58%,
+    rgba(231, 86, 242, 1) 76%,
+    rgba(236, 191, 237, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Angry-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 62.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-2 {
+  margin-left: 94.3px;
+  width: 458px;
+  height: 69px;
+  background: linear-gradient(
+    90deg,
+    rgba(242, 219, 248, 1) 0%,
+    rgba(233, 145, 250, 1) 28%,
+    rgba(186, 125, 255, 1) 45%,
+    rgba(178, 178, 253, 1) 58%,
+    rgba(231, 86, 242, 1) 76%,
+    rgba(236, 191, 237, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Angry-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 62.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .frame {
+  display: inline-flex;
+  height: 29px;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #00FF37;
-  font-family: "Times New Roman", sans-serif;
+  justify-content: center;
+  gap: 9.27px;
+  padding: 3.25px 13.35px 6.68px 13.35px;
+  position: absolute;
+  top: 34px;
+  left: 145px;
+  background-color: #232222;
+  border: 0.93px solid;
+  border-color: #ffffff;
 }
 
-h1 {
-  color: #e92bd8;
-  font-size: 3rem;
-  transition: transform 0.3s, color 0.3s;
+.screen .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.69px;
+  font-family: "Advent Pro Expanded-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
 
-h1:hover {
-  color: #ff6347;
-  transform: scale(1.2);
+.screen .frame-wrapper {
+  top: 34px;
+  left: 444px;
+  width: 113px;
+  height: 29px;
+  position: absolute;
+  display: flex;
+}
+
+.screen .div-wrapper {
+  display: flex;
+  width: 112.7px;
+  height: 29px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3.25px 13.35px 6.68px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 54, 245, 1) 0%,
+    rgba(178, 105, 255, 1) 26%,
+    rgba(222, 134, 247, 1) 47%,
+    rgba(212, 186, 234, 1) 63%,
+    rgba(113, 217, 246, 1) 78%,
+    rgba(58, 166, 238, 1) 95%
+  );
+}
+
+.screen .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.96px;
+  font-family: "Advent Pro Expanded-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #232222;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6.78px;
+  position: absolute;
+  top: 19px;
+  left: 953px;
+}
+
+.screen .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 6.78px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .vector-2 {
+  position: relative;
+  width: 17.02px;
+  height: 14.47px;
+}
+
+.screen .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.13px;
+  font-family: "Advent Pro Expanded-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 13.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .vector-3 {
+  position: relative;
+  width: 16.76px;
+  height: 12.11px;
+  aspect-ratio: 1.38;
+}
+
+.screen .vector-4 {
+  position: relative;
+  width: 17.19px;
+  height: 16.08px;
+  aspect-ratio: 1.07;
+}
+
+.screen .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.09px;
+  font-family: "Advent Pro Expanded-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 13.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .vector-5 {
+  position: relative;
+  width: 17.02px;
+  height: 17.02px;
+}
+
+.screen .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.62px;
+  font-family: "Advent Pro Expanded-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 13.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .vector-6 {
+  position: relative;
+  width: 16.7px;
+  height: 10.42px;
+  aspect-ratio: 1.6;
 }
